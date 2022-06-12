@@ -1,0 +1,39 @@
+/*inporting google font*/
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;500;700&family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+/* importing all component file*/
+@import url("component/voiture.css");
+@import url("component/container.css");
+@import url("component/button.css");
+@import url("component/banner.css");
+@import url("component/card.css");
+@import url("component/banner2.css");
+@import url("component/banner3.css");
+
+
+
+/* general style rules for font and colors*/
+
+
+body {
+	font-family: 'Charis SIL', serif;
+	font-size: 18px;
+	color: white;
+	margin: 0px;
+	background-color: #212123;
+	text-align: cente;
+}
+
+h1,h2,h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	margin: 100px;
+}
+
